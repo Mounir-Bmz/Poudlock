@@ -1,4 +1,4 @@
-# <a href="https://poudlock.vercel.app/" target="_blank">Poudlock</a>
+# Poudlock
 
 Il était une fois, une école d'apprentis magidevs du nom de Poudlock. Cette école a été fondée par 4 personnes aux talents divers et complémentaires : **Anthony**, **Dario**, **Lucie** et **Maxime**.
 
