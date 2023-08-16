@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    
+    color: rgb(235, 232, 205);
+    background-color: #1a1103;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%2331271b' fill-opacity='0.4'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+    font-family: 'Roboto Slab', serif;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.speech {
+    background: rgb(193, 190, 159);
+    border-radius: 5px;
+    position: relative;
+    border-radius: .4em;
+    padding: 2rem;
+    text-align: center;
+}
+.speech:after {
+    content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-right-color: rgb(193, 190, 159);
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -10px;
+	margin-left: -20px;
+}
+
+
+.speech_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(27, 16, 6);
+    font-size: 1.2rem;
+}
+.hat_container {
+    display: flex;
+}
+.hat_container > div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+img {
+    max-width: 100%;
+}
+h2 {
+    margin-top: 3rem;
+    text-align: center;
+}
+form {
+    display: flex;
+    justify-content: center;
+}
+input {
+    height: 3rem;
+    border-radius: 3px;
+    border: none;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+
+}
+
+.name {
+    background: rgb(194, 163, 116);
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin-right: .5rem;
+}
+.submit {
+    background: rgb(161, 86, 35);
+    font-size: 1rem;
+    cursor: pointer;
+}
