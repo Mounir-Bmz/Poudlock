@@ -3,7 +3,6 @@
 }
 
 body {
-
     color: rgb(235, 232, 205);
     background-color: #1a1103;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%2331271b' fill-opacity='0.4'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
@@ -11,14 +10,14 @@ body {
 }
 
 .wrapper {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
 h1 {
     font-size: 3rem;
     text-align: center;
-    margin-top: 0.5rem;
+    margin-top: 3rem;
 }
 
 .speech {
@@ -66,12 +65,15 @@ h1 {
 }
 
 img {
-    max-width: 100%;
+    max-width: 477px;
+    max-height: 421px;
+    /* On force Maxopus à faire la meme taille que les autres. Avant, on avait simplement mis max-width: 100%; */
 }
 
 h2 {
-    margin-top: 3rem;
+    margin-top: 2rem;
     text-align: center;
+    margin-bottom: 1.2rem;
 }
 
 form {
@@ -105,7 +107,7 @@ input {
     margin-left: 3rem;
 }
 
-.choixpeau{
+.choixpeau {
     margin-bottom: 2rem;
 }
 
